@@ -4,8 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 sh '''
-                echo Devops Task-1 completed
-                date time
+                echo Devops Task-1 and  Task-2 completed 
                 '''
             }
         }
