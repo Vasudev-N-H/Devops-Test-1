@@ -5,7 +5,6 @@ pipeline{
             steps{
                 sh '''
                 echo Devops Task-1 completed
-                date time
                 '''
             }
         }
